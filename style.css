@@ -1,0 +1,158 @@
+
+:root{
+--yellow:#F9D00F;
+--white:whitesmoke;
+--green:#98D8AA;
+--red:#FF6D60;
+
+}
+
+body,h2{
+    margin:0;
+    padding:0;
+}
+.landing{
+background-image:url('../image/pexels-jessica-lewis-creative-858094.jpg');
+background-size: cover;
+background-position: center;
+height:100vh;
+color:var(--white);
+}
+
+header a{
+    text-decoration:none;
+    color:var(--yellow);
+    min-width:120px;
+
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    padding:1em;
+   
+}
+
+#logo{
+    flex:3;
+    font-size:1.25em;
+    min-width:260px;
+}
+nav{
+    flex:2;
+    display:flex;
+    align-items: center;
+}
+
+nav a{
+    flex:1;
+}
+
+nav a:hover{
+    color:var(--green);
+}
+
+
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height: 50vh;
+    padding:5em;
+    justify-content: center;
+   
+}
+.tagline1{
+    color:var(--red);
+    font-size:2.5em;
+    font-weight:bolder;
+
+}
+.tagline2{
+    color:var(--yellow);
+}
+.maintext div{
+    margin-top:.75em;
+}
+
+button{
+    width:20vw;
+    margin-top:2em;
+    border-radius:10px;
+    padding:.7em;
+    background-color: var(--green);
+    border:1px solid var(--green);
+    color:var(--white);
+}
+
+.menu1
+{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    font-size:1.2em;
+    background: linear-gradient(90deg, rgb(109, 108, 113) 0%, rgba(194, 194, 183, 1) 44%);
+    color:var(--white);
+  
+}
+
+#menuheading,#locheading{
+    background: linear-gradient(90deg, rgb(109, 108, 113) 0%, rgba(194, 194, 183, 1) 44%);
+    font-size:2em;
+    color:var(--red);
+    display:flex;
+    justify-content: center;
+
+}
+
+.menu1 th{
+        color:var(--green);
+        font-size: 1.5em;
+}
+.menu tr
+{
+    display :flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+
+}
+.menu td:nth-child(2){
+    justify-self:right;
+}
+
+
+table{
+    width: :100%;
+    padding:1em;
+}
+
+
+.menu1 tr{
+    display:flex;
+    justify-content: center;
+}
+
+.location{
+
+    display: flex;
+    flex-wrap:wrap;
+        color: var(--white);
+        font-size: 1.2em;
+        background: linear-gradient(90deg, rgb(109, 108, 113) 0%, rgba(194, 194, 183, 1) 44%);
+
+}
+.location h2{
+    color:var(--green);
+
+}
+.location div{
+    flex:1;
+    padding:2em;
+    min-width: 350px;
+}
